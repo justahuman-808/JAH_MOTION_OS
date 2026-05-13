@@ -2,3 +2,4 @@
 {"ts":"2026-05-13T12:05:00Z","event":"husky_sentinel_verify","detail":"commit with state.log staged passes hook"}
 {"ts":"2026-05-13T12:10:00Z","event":"repo_cleanup","detail":"remove husky probe files from tree"}
 {"ts":"2026-05-13T12:15:00Z","event":"sprint1_implementation","detail":"MCP JAH_Motion_Bridge, AE bridge_host.jsx, snapshot skill, husky v1, .cursor rules"}
+{"ts":"2026-05-13T12:18:00Z","event":"gitignore_fix","detail":"normalize tmp_motion_os and aep ignore patterns"}
