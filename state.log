@@ -1,0 +1,2 @@
+{"ts":"2026-05-13T00:00:00Z","event":"repo_init","detail":"MotionStudio OS Sprint 1 scaffold created; append JSON lines for each bridge run or governance-relevant change."}
+{"ts":"2026-05-13T12:05:00Z","event":"husky_sentinel_verify","detail":"commit with state.log staged passes hook"}
