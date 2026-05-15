@@ -1,0 +1,13 @@
+{
+  "name": "Scanning Lines",
+  "category": "library",
+  "subcategory": "textures",
+  "description": "A scanning lines grid overlay.",
+  "code": "// Scanning Lines Texture Code\n(function() {\n    // AE Texture implementation for {{ name }}\n})();",
+  "params": {
+    "type": "Grid",
+    "GRID_SPACING": 4,
+    "OPACITY": 0.1,
+    "THICKNESS": 1
+  }
+}

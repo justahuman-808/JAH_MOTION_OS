@@ -1,0 +1,11 @@
+{
+  "name": "Staggered Scale Up",
+  "category": "motion",
+  "description": "Entrance animation that scales layers from zero with an index-based delay.",
+  "tags": ["stagger", "scale", "entrance", "motion"],
+  "code": "delay = index * {{stagger}}; t = Math.max(0, time - delay); s = linear(t, 0, {{duration}}, 0, 100); [s, s];",
+  "parameters": {
+    "stagger": 0.1,
+    "duration": 0.5
+  }
+}

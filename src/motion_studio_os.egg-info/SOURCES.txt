@@ -1,0 +1,14 @@
+setup.py
+src/core/__init__.py
+src/core/skills/__init__.py
+src/core/skills/mcp_tools/__init__.py
+src/core/skills/mcp_tools/ae_bridge.py
+src/core/skills/mcp_tools/server.py
+src/core/skills/mcp_tools/snapshot.py
+src/core/skills/motion_skills/__init__.py
+src/core/skills/ui_skills/__init__.py
+src/motion_studio_os.egg-info/PKG-INFO
+src/motion_studio_os.egg-info/SOURCES.txt
+src/motion_studio_os.egg-info/dependency_links.txt
+src/motion_studio_os.egg-info/requires.txt
+src/motion_studio_os.egg-info/top_level.txt

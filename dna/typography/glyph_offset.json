@@ -1,0 +1,10 @@
+{
+  "name": "Burmese Glyph Offset",
+  "category": "typography",
+  "description": "Applies a slight horizontal offset to Burmese characters to fix specific kerning issues in After Effects.",
+  "tags": ["burmese", "typography", "kerning", "fix"],
+  "code": "s = text.sourceText; if (s.indexOf(' ') !== -1) { [value[0] + {{offset}}, value[1]]; } else { value; }",
+  "parameters": {
+    "offset": 5
+  }
+}

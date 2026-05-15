@@ -1,0 +1,13 @@
+{
+  "name": "Neon Cyber",
+  "category": "library",
+  "subcategory": "gradients",
+  "description": "A neon cyber gradient with linear interpolation.",
+  "code": "// Neon Cyber Gradient Code\n(function() {\n    // AE Gradient implementation for {{ name }}\n})();",
+  "params": {
+    "c1": "#8000ff",
+    "c2": "#00ffff",
+    "speed": 2.0,
+    "type": "Linear"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Plasma Flow",
+  "category": "library",
+  "subcategory": "gradients",
+  "description": "A plasma flow gradient with radial interpolation.",
+  "code": "// Plasma Flow Gradient Code\n(function() {\n    // AE Gradient implementation for {{ name }}\n})();",
+  "params": {
+    "c1": "#ff00cc",
+    "c2": "#3333ff",
+    "speed": 2.5,
+    "type": "Radial"
+  }
+}

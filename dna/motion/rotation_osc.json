@@ -1,0 +1,11 @@
+{
+  "name": "Oscillating Rotation",
+  "category": "motion",
+  "description": "Smooth, rhythmic rotation for UI elements.",
+  "tags": ["oscillation", "rotation", "motion", "loop"],
+  "code": "freq = {{frequency}}; amp = {{amplitude}}; amp * Math.sin(time * freq * 2 * Math.PI);",
+  "parameters": {
+    "frequency": 1.0,
+    "amplitude": 15
+  }
+}

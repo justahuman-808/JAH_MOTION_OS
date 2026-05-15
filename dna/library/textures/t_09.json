@@ -1,0 +1,13 @@
+{
+  "name": "Retro CRT",
+  "category": "library",
+  "subcategory": "textures",
+  "description": "A retro CRT scanline grid overlay.",
+  "code": "// Retro CRT Texture Code\n(function() {\n    // AE Texture implementation for {{ name }}\n})();",
+  "params": {
+    "type": "Grid",
+    "GRID_SPACING": 6,
+    "OPACITY": 0.4,
+    "CURVATURE": 0.2
+  }
+}

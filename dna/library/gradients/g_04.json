@@ -1,0 +1,13 @@
+{
+  "name": "Aurora Borealis",
+  "category": "library",
+  "subcategory": "gradients",
+  "description": "An aurora borealis gradient with linear interpolation.",
+  "code": "// Aurora Borealis Gradient Code\n(function() {\n    // AE Gradient implementation for {{ name }}\n})();",
+  "params": {
+    "c1": "#00ff87",
+    "c2": "#60efff",
+    "speed": 0.5,
+    "type": "Linear"
+  }
+}

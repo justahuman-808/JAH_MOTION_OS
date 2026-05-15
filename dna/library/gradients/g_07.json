@@ -1,0 +1,13 @@
+{
+  "name": "Toxic Slime",
+  "category": "library",
+  "subcategory": "gradients",
+  "description": "A toxic slime gradient with radial interpolation.",
+  "code": "// Toxic Slime Gradient Code\n(function() {\n    // AE Gradient implementation for {{ name }}\n})();",
+  "params": {
+    "c1": "#9dff00",
+    "c2": "#1e3c00",
+    "speed": 1.5,
+    "type": "Radial"
+  }
+}

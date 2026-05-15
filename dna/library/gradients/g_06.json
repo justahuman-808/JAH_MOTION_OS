@@ -1,0 +1,13 @@
+{
+  "name": "Midnight Glass",
+  "category": "library",
+  "subcategory": "gradients",
+  "description": "A midnight glass gradient with linear interpolation.",
+  "code": "// Midnight Glass Gradient Code\n(function() {\n    // AE Gradient implementation for {{ name }}\n})();",
+  "params": {
+    "c1": "#232526",
+    "c2": "#414345",
+    "speed": 0.3,
+    "type": "Linear"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Burmese Kerning Fix",
+  "category": "typography",
+  "description": "Adjusts Burmese Unicode character spacing in After Effects layers.",
+  "tags": ["burmese", "typography", "unicode", "fix"],
+  "code": "txt = text.sourceText; regex = /[\\u1000-\\u109F]/g; txt.replace(regex, (m) => m + '\\u200B');",
+  "parameters": {}
+}

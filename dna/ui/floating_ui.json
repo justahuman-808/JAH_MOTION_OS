@@ -1,0 +1,11 @@
+{
+  "name": "3D Floating UI",
+  "category": "ui",
+  "description": "Calculates floating movement for UI cards in a 3D environment.",
+  "tags": ["3d", "floating", "ui", "motion"],
+  "code": "freq = {{frequency}}; amp = {{amplitude}}; [Math.sin(time * freq) * amp, Math.cos(time * freq * 0.8) * amp, Math.sin(time * freq * 1.2) * amp];",
+  "parameters": {
+    "frequency": 1.2,
+    "amplitude": 100
+  }
+}

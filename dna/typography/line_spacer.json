@@ -1,0 +1,8 @@
+{
+  "name": "Burmese Line Spacer",
+  "category": "typography",
+  "description": "Adjusts vertical line spacing for Burmese script to prevent character overlapping.",
+  "tags": ["burmese", "typography", "spacing", "fix"],
+  "code": "l = text.sourceText.split('\\r'); result = ''; for(i=0; i<l.length; i++) { result += l[i] + (i < l.length-1 ? '\\r\\r' : ''); } result;",
+  "parameters": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Spring Path Follow",
+  "category": "motion",
+  "description": "Expression for smooth, physics-based path following with spring overshoot.",
+  "tags": ["physics", "spring", "overshoot", "motion"],
+  "code": "freq = {{freq}}; decay = {{decay}}; t = time; x = Math.exp(-decay * t) * Math.cos(2 * Math.PI * freq * t); [100 - x, 100 - x];",
+  "parameters": {
+    "freq": 3.0,
+    "decay": 2.5
+  }
+}

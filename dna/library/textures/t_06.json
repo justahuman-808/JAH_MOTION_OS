@@ -1,0 +1,13 @@
+{
+  "name": "Micro Dots",
+  "category": "library",
+  "subcategory": "textures",
+  "description": "A micro dots grid overlay.",
+  "code": "// Micro Dots Texture Code\n(function() {\n    // AE Texture implementation for {{ name }}\n})();",
+  "params": {
+    "type": "Grid",
+    "GRID_SPACING": 8,
+    "OPACITY": 0.3,
+    "RADIUS": 1
+  }
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-tactile antialiased overflow-x-hidden;
+  }
+}
+
+/* Custom Utilities for things Tailwind doesn't have hooks for */
+@layer utilities {
+  .mask-fade-out {
+    mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .grain-overlay {
+    @apply fixed inset-0 pointer-events-none opacity-[0.04] z-[9999];
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAAAAACPAi4CAAAQS0lEQVR4nAFAEL/vABpvqTlWe4XOWJn6M0kVL97hlYk06RYDdeziHDmEV0d+cuJlBADNpRUWozlVMzSQpYtjopI++4vJEYXNT3YnepkATb8QoFLZCch4HgqTQWB1BgADvI7GOkSHrrtWDqrOHaG0kXcuLUsWDeG6eiYrAYj23kCSK0I3P2j9ccalDhTCCABrXwc4cROjBs7SIcPnwXclbAujabmGaksF2pmhyBD26Wm6dAZXlld4mfAhq1a6xtzd3hU9BFK0mJcISyxc4kTFAIaAUHASqrc4OB/8dS53kHU4QmMYKo/gXrzFp7lDUfpO1Xo8qKsOKA4VuSlUtjRkXBr2soag3pJBwFnR6an0ARgAGrTkFX8yCBaz3xO0CB+guUny+Zfh3P+X2D5qHBIzYC9smjFaeo0xize/BS8/q6HwkeJhu0/FcBiew8womPr63gDcdcIY5GXR59KvTpdNuDSmIRZILtGN7WSR1FJFmy31EG4fDWTJJsYss2NijGTePvCKB7o2rIs28UR9QGqUc4oiAJBiz8YpV/aQLyywuLtcXEsph20TwX5f3SPU5EEF3pPk+2h9SMWrJwAJDpmwIKTIkAW5Ovdw897R7/4eDVSbveoAMZMJBIoK1JniEz7PxTl71PbIITWT+24DkfqVkNddox1yJhJUE6arxkZxPuaEuF2OzV/oQU1dWHzlxJB91C2r4QDKgpRz+IZ1NG4r5lkSSuNcH+mu0m1H3x2aPm8Cs9s0HG7iRhAPjZCYpvlkHdaibk32bhz1IR+Rna5B97CMTvWbACh+aSgx8l8ZEOrSoYyb1cam2PXQ0eimFjT74inu9ZZSg0K1O5vZnwbx7zX6EUIB/6FWT4f9vScGwJ1HxhJOXRUAbTbL/5c7vKYomJUkq2x3db26FnN364dUFVxb2FSqStl2QdIXf4H7JVS/pn/A458f0ezagkyMukZBXzdIcuY5lwBiq0kERR5bB052PTDm720EVING/Ko/IydVoxTKsSCupnqJGvAgGqHk6kndWrI/...");
+  }
+}

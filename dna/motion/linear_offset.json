@@ -1,0 +1,10 @@
+{
+  "name": "Linear Path Offset",
+  "category": "motion",
+  "description": "Animates a layer's position with a constant linear offset over time.",
+  "tags": ["linear", "path", "offset", "motion"],
+  "code": "offset = {{speed}} * time; [value[0] + offset, value[1]];",
+  "parameters": {
+    "speed": 100
+  }
+}

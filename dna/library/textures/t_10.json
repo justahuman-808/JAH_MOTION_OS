@@ -1,0 +1,13 @@
+{
+  "name": "Canvas Weave",
+  "category": "library",
+  "subcategory": "textures",
+  "description": "A static canvas weave texture overlay.",
+  "code": "// Canvas Weave Texture Code\n(function() {\n    // AE Texture implementation for {{ name }}\n})();",
+  "params": {
+    "type": "Static",
+    "GRID_SPACING": 10,
+    "OPACITY": 0.15,
+    "SOFTNESS": 0.9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Digital Glitch",
+  "category": "library",
+  "subcategory": "textures",
+  "description": "A digital glitch grid overlay.",
+  "code": "// Digital Glitch Texture Code\n(function() {\n    // AE Texture implementation for {{ name }}\n})();",
+  "params": {
+    "type": "Grid",
+    "GRID_SPACING": 20,
+    "OPACITY": 0.6,
+    "OFFSET": 10
+  }
+}

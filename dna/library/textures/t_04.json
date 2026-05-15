@@ -1,0 +1,13 @@
+{
+  "name": "Paper Fiber",
+  "category": "library",
+  "subcategory": "textures",
+  "description": "A static paper fiber texture overlay.",
+  "code": "// Paper Fiber Texture Code\n(function() {\n    // AE Texture implementation for {{ name }}\n})();",
+  "params": {
+    "type": "Static",
+    "GRID_SPACING": 1,
+    "OPACITY": 0.2,
+    "SCALE": 0.5
+  }
+}

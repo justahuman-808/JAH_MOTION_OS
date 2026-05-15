@@ -1,0 +1,13 @@
+{
+  "name": "Concrete Dust",
+  "category": "library",
+  "subcategory": "textures",
+  "description": "A concrete dust noise overlay.",
+  "code": "// Concrete Dust Texture Code\n(function() {\n    // AE Texture implementation for {{ name }}\n})();",
+  "params": {
+    "type": "Noise",
+    "GRID_SPACING": 3,
+    "OPACITY": 0.25,
+    "SPEED": 0.5
+  }
+}

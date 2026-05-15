@@ -1,0 +1,8 @@
+{
+  "name": "Burmese Boldness Matcher",
+  "category": "typography",
+  "description": "Adjusts the thickness of Burmese fonts to match standard Latin type weights.",
+  "tags": ["burmese", "typography", "weight", "boldness"],
+  "code": "s = text.sourceText; if (/[\\u1000-\\u109F]/.test(s)) { [100, 105]; } else { [100, 100]; }",
+  "parameters": {}
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Liquid Sunset",
+  "category": "library",
+  "subcategory": "gradients",
+  "description": "A liquid sunset gradient with linear interpolation.",
+  "code": "// Liquid Sunset Gradient Code\n(function() {\n    // AE Gradient implementation for {{ name }}\n})();",
+  "params": {
+    "c1": "#ff5f6d",
+    "c2": "#ffc371",
+    "speed": 1.2,
+    "type": "Linear"
+  }
+}

@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: motion-studio-os
+Version: 0.1.0
+Summary: MotionStudio OS Sprint 1 — MCP bridge to After Effects
+Requires-Python: >=3.11
+Requires-Dist: mcp>=1.2.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: pillow>=10.0.0
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

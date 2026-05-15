@@ -1,0 +1,12 @@
+{
+  "name": "Dynamic Z-Stacking",
+  "category": "ui",
+  "description": "Calculates the Z-position based on layer index and current time for a fluid layering effect.",
+  "tags": ["3d", "depth", "ui", "stacking"],
+  "code": "zPos = index * {{zOffset}}; zPos + (Math.sin(time * {{speed}} + index) * {{amplitude}});",
+  "parameters": {
+    "zOffset": 50,
+    "speed": 1.5,
+    "amplitude": 30
+  }
+}

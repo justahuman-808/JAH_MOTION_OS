@@ -1,0 +1,10 @@
+{
+  "name": "3D UI Depth Stacking",
+  "category": "ui",
+  "description": "Calculates Z-offset based on layer index for automated UI depth.",
+  "tags": ["3d", "depth", "stacking", "layout"],
+  "code": "zOffset = {{offset}}; [value[0], value[1], index * zOffset + (Math.sin(time * 2) * 50)];",
+  "parameters": {
+    "offset": 100
+  }
+}

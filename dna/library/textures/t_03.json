@@ -1,0 +1,13 @@
+{
+  "name": "Industrial Grit",
+  "category": "library",
+  "subcategory": "textures",
+  "description": "An industrial grit texture overlay.",
+  "code": "// Industrial Grit Texture Code\n(function() {\n    // AE Texture implementation for {{ name }}\n})();",
+  "params": {
+    "type": "Noise",
+    "GRID_SPACING": 5,
+    "OPACITY": 0.4,
+    "ROUGHNESS": 0.8
+  }
+}

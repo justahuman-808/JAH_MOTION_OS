@@ -1,0 +1,11 @@
+{
+  "name": "Magnetic UI Interaction",
+  "category": "ui",
+  "description": "Attracts or repels layers based on cursor proximity in After Effects.",
+  "tags": ["magnetic", "interaction", "ui", "physics"],
+  "code": "dist = length(thisLayer.position, mousePosition); if (dist < {{threshold}}) { offset = ({{threshold}} - dist) * {{strength}}; value + normalize(thisLayer.position - mousePosition) * offset; } else { value; }",
+  "parameters": {
+    "threshold": 300,
+    "strength": 0.5
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Button Hover Bounce",
+  "category": "motion",
+  "description": "Natural bounce effect for UI elements when hovered or activated.",
+  "tags": ["hover", "button", "bounce", "UI"],
+  "code": "n = 0; if (numKeys > 0){ n = nearestKey(time).index; if (key(n).time > time){ n--; } } if (n == 0){ t = 0; }else{ t = time - key(n).time; } if (n > 0){ v = velocityAtTime(key(n).time - thisComp.frameDuration/10); amp = {{amplitude}}; freq = {{frequency}}; decay = {{decay}}; value + v*amp*Math.sin(freq*t*2*Math.PI)/Math.exp(decay*t); }else{ value; }",
+  "parameters": {
+    "amplitude": 0.05,
+    "frequency": 4.0,
+    "decay": 2.0
+  }
+}

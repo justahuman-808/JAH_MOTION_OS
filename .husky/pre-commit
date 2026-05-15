@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+set -eu
+
+STAGED_FILES=$(git diff --cached --name-only)
+if [ -z "$STAGED_FILES" ]; then
+  exit 0
+fi
+
+if echo "$STAGED_FILES" | grep -Fxq "state.log"; then
+  exit 0
+fi
+
+echo "Husky Sentinel v1: stage state.log together with other changes (see docs/intelligence/LLM.md)."
+exit 1

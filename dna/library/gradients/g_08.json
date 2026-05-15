@@ -1,0 +1,13 @@
+{
+  "name": "Cotton Candy",
+  "category": "library",
+  "subcategory": "gradients",
+  "description": "A cotton candy gradient with linear interpolation.",
+  "code": "// Cotton Candy Gradient Code\n(function() {\n    // AE Gradient implementation for {{ name }}\n})();",
+  "params": {
+    "c1": "#ee9ca7",
+    "c2": "#ffdde1",
+    "speed": 0.7,
+    "type": "Linear"
+  }
+}

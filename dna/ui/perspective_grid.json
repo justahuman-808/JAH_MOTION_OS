@@ -1,0 +1,13 @@
+{
+  "name": "3D Perspective Grid",
+  "category": "ui",
+  "description": "Calculates layer position on a 3D grid with perspective warping.",
+  "tags": ["3d", "grid", "layout", "perspective"],
+  "code": "cols = {{columns}}; x = (index % cols) * {{spacingX}}; y = Math.floor(index / cols) * {{spacingY}}; [x, y, index * {{zFactor}}];",
+  "parameters": {
+    "columns": 5,
+    "spacingX": 200,
+    "spacingY": 200,
+    "zFactor": 50
+  }
+}

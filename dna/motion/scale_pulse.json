@@ -1,0 +1,12 @@
+{
+  "name": "Spring Scale Pulse",
+  "category": "motion",
+  "description": "Expression for scale pulsing with a natural spring-like deceleration.",
+  "tags": ["physics", "spring", "pulse", "motion"],
+  "code": "s = 100 + {{amplitude}} * Math.exp(-{{decay}} * time) * Math.sin(2 * Math.PI * {{frequency}} * time); [s, s];",
+  "parameters": {
+    "amplitude": 20,
+    "decay": 2.0,
+    "frequency": 3.0
+  }
+}

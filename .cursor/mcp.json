@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "JAH_Motion_Bridge": {
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-m", "core.skills.mcp_tools.server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      }
+    }
+  }
+}

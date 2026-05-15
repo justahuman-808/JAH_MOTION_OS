@@ -1,0 +1,13 @@
+{
+  "name": "Deep Ocean",
+  "category": "library",
+  "subcategory": "gradients",
+  "description": "A deep ocean gradient with radial interpolation.",
+  "code": "// Deep Ocean Gradient Code\n(function() {\n    // AE Gradient implementation for {{ name }}\n})();",
+  "params": {
+    "c1": "#2193b0",
+    "c2": "#6dd5ed",
+    "speed": 0.8,
+    "type": "Radial"
+  }
+}

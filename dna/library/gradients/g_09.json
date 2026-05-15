@@ -1,0 +1,13 @@
+{
+  "name": "Volcanic Ash",
+  "category": "library",
+  "subcategory": "gradients",
+  "description": "A volcanic ash gradient with linear interpolation.",
+  "code": "// Volcanic Ash Gradient Code\n(function() {\n    // AE Gradient implementation for {{ name }}\n})();",
+  "params": {
+    "c1": "#4b6cb7",
+    "c2": "#182848",
+    "speed": 1.1,
+    "type": "Linear"
+  }
+}

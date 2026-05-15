@@ -1,0 +1,13 @@
+{
+  "name": "Film Grain",
+  "category": "library",
+  "subcategory": "textures",
+  "description": "A classic film grain texture overlay.",
+  "code": "// Film Grain Texture Code\n(function() {\n    // AE Texture implementation for {{ name }}\n})();",
+  "params": {
+    "type": "Noise",
+    "GRID_SPACING": 2,
+    "OPACITY": 0.15,
+    "SPEED": 3.0
+  }
+}

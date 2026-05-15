@@ -1,0 +1,11 @@
+{
+  "name": "Dynamic Color Shift",
+  "category": "ui",
+  "description": "Cycles a layer's color based on its index and current time.",
+  "tags": ["color", "dynamic", "ui", "loop"],
+  "code": "hue = (index * {{hueOffset}} + time * {{speed}}) % 360; hslToRgb([hue/360, 0.8, 0.5, 1]);",
+  "parameters": {
+    "hueOffset": 20,
+    "speed": 60
+  }
+}

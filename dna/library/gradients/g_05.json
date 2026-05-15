@@ -1,0 +1,13 @@
+{
+  "name": "Golden Hour",
+  "category": "library",
+  "subcategory": "gradients",
+  "description": "A golden hour gradient with radial interpolation.",
+  "code": "// Golden Hour Gradient Code\n(function() {\n    // AE Gradient implementation for {{ name }}\n})();",
+  "params": {
+    "c1": "#f2994a",
+    "c2": "#f2c94c",
+    "speed": 1.0,
+    "type": "Radial"
+  }
+}

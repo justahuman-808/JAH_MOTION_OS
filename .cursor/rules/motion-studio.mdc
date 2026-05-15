@@ -1,0 +1,9 @@
+---
+description: MotionStudio OS — intelligence-first, MCP-only AE mutations
+alwaysApply: true
+---
+
+- Read `docs/intelligence/LLM.md` for motion tokens, `state.log` rules, and layout authority.
+- Read `docs/intelligence/Agents.md` for roles, allowed MCP tools, and Observer prompts.
+- Prefer MCP tools in `core.skills.mcp_tools` over ad-hoc ExtendScript in chat; new AE behavior belongs in `src/core/skills/motion_skills/`.
+- Do not commit without staging `state.log` when other files are staged (Husky Sentinel v1).

@@ -1,0 +1,10 @@
+{
+  "name": "Burmese Glyph Randomizer",
+  "category": "typography",
+  "description": "Randomly cycles through Burmese characters to create unique kinetic backgrounds.",
+  "tags": ["burmese", "typography", "random", "loop"],
+  "code": "glyphs = [\"က\", \"ခ\", \"ဂ\", \"ဃ\", \"င\", \"စ\", \"ဆ\", \"ဇ\"]; index = Math.floor(time * {{speed}}) % glyphs.length; glyphs[index];",
+  "parameters": {
+    "speed": 5
+  }
+}

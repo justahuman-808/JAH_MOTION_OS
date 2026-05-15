@@ -1,0 +1,13 @@
+{
+  "name": "Halftone Dots",
+  "category": "library",
+  "subcategory": "textures",
+  "description": "A halftone dots pattern overlay.",
+  "code": "// Halftone Dots Texture Code\n(function() {\n    // AE Texture implementation for {{ name }}\n})();",
+  "params": {
+    "type": "Grid",
+    "GRID_SPACING": 12,
+    "OPACITY": 0.8,
+    "DOT_SIZE": 4
+  }
+}

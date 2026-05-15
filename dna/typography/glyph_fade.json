@@ -1,0 +1,11 @@
+{
+  "name": "Burmese Glyph Fade",
+  "category": "typography",
+  "description": "Expression for fading in Burmese glyphs with an index-based delay.",
+  "tags": ["burmese", "typography", "fade", "entrance"],
+  "code": "delay = index * {{stagger}}; t = Math.max(0, time - delay); linear(t, 0, {{duration}}, 0, 100);",
+  "parameters": {
+    "stagger": 0.15,
+    "duration": 0.5
+  }
+}
