@@ -525,31 +525,31 @@ const SnippetCard = memo(({ snippet }: { snippet: Snippet }) => {
           </h3>
         </div>
         <div className="flex items-center gap-1.5">
-          {/* Apply button */}
-          <button
-            onClick={() => void applySnippet()}
-            disabled={applyState === "loading"}
-            title={canApplyToken ? `Apply token "${matchedToken.name}" to AE` : "Copy code"}
-            className={`rounded-lg px-2.5 py-1.5 text-xs font-mono flex items-center gap-1.5 transition-all border ${
-              applyState === "ok"
-                ? "bg-accent/10 border-accent/30 text-accent"
-                : applyState === "noop"
-                ? "bg-yellow-400/10 border-yellow-400/20 text-yellow-400"
-                : applyState === "error"
-                ? "bg-red-400/10 border-red-400/20 text-red-400"
-                : "bg-white/5 border-white/10 text-gray-300 hover:border-accent/30 hover:text-accent"
-            }`}
-          >
-            {applyState === "loading" ? (
-              <Loader size={13} className="animate-spin" />
-            ) : applyState === "ok" ? (
-              <Check size={13} />
-            ) : (
-              <SendToBack size={13} />
-            )}
-            {applyState === "ok" ? "Synced" : applyState === "noop" ? "No-op" : applyState === "error" ? "Error" : canApplyToken ? "Apply" : "Copy"}
-          </button>
-          {/* Raw copy */}
+          {canApplyToken && (
+            <button
+              onClick={() => void applySnippet()}
+              disabled={applyState === "loading"}
+              title={`Apply token "${matchedToken.name}" to AE`}
+              className={`rounded-lg px-2.5 py-1.5 text-xs font-mono flex items-center gap-1.5 transition-all border ${
+                applyState === "ok"
+                  ? "bg-accent/10 border-accent/30 text-accent"
+                  : applyState === "noop"
+                  ? "bg-yellow-400/10 border-yellow-400/20 text-yellow-400"
+                  : applyState === "error"
+                  ? "bg-red-400/10 border-red-400/20 text-red-400"
+                  : "bg-white/5 border-white/10 text-gray-300 hover:border-accent/30 hover:text-accent"
+              }`}
+            >
+              {applyState === "loading" ? (
+                <Loader size={13} className="animate-spin" />
+              ) : applyState === "ok" ? (
+                <Check size={13} />
+              ) : (
+                <SendToBack size={13} />
+              )}
+              {applyState === "ok" ? "Synced" : applyState === "noop" ? "No-op" : applyState === "error" ? "Error" : "Apply"}
+            </button>
+          )}
           <button
             onClick={() => copyToClipboard(renderedCode)}
             className="rounded-lg bg-white/5 p-2 transition-all hover:bg-accent hover:text-background"

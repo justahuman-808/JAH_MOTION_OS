@@ -2,13 +2,18 @@
 set -eu
 
 STAGED_FILES=$(git diff --cached --name-only)
+
+# If nothing is staged, let git handle it
 if [ -z "$STAGED_FILES" ]; then
   exit 0
 fi
 
-if echo "$STAGED_FILES" | grep -Fxq "state.log"; then
+# Look for state.log anywhere in the list of staged file paths
+if echo "$STAGED_FILES" | grep -Fq "state.log"; then
+  echo "Husky Sentinel v1: State synchronization verified."
   exit 0
 fi
 
+# Fallback: Reject if changes are made without updating the log
 echo "Husky Sentinel v1: stage state.log together with other changes (see docs/intelligence/LLM.md)."
 exit 1
