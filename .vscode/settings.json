@@ -1,0 +1,16 @@
+{
+  "tailwindCSS.experimental.configFile": "./tailwind.config.ts",
+  "tailwindCSS.includeLanguages": {
+    "css": "css",
+    "postcss": "css"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "[css]": {
+    "css.validate": false
+  },
+  "[postcss]": {
+    "css.validate": false
+  }
+}
